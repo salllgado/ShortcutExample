@@ -6,7 +6,7 @@
 //  Copyright © 2020 Salgado Solutions. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum RegisteredItems: String {
     case secondViewController = "secondScreenDynamic"
@@ -24,4 +24,4 @@ enum RegisteredItems: String {
             UIApplication.shared.shortcutItems = shortcutItems
         }
     }
-}g
+}
