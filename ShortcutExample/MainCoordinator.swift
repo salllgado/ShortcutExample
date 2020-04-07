@@ -35,6 +35,7 @@ extension MainCoordinator: FirstViewControllerDelegate {
     func navigate() {
         let secondViewController = UIViewController()
         secondViewController.view.backgroundColor = .red
+        ShortcutItemManager().register()
         
         presenter.pushViewController(secondViewController, animated: true)
     }

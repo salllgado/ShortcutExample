@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82EC3A7243D151D00BB0657 /* ShortcutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82EC3A6243D151D00BB0657 /* ShortcutFactory.swift */; };
+		B82EC3A9243D179200BB0657 /* ShortcutItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82EC3A8243D179200BB0657 /* ShortcutItemManager.swift */; };
 		B84FA22F243CB59D00490CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84FA22E243CB59D00490CA6 /* AppDelegate.swift */; };
 		B84FA233243CB59D00490CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84FA232243CB59D00490CA6 /* ViewController.swift */; };
 		B84FA236243CB59D00490CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84FA234243CB59D00490CA6 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B82EC3A6243D151D00BB0657 /* ShortcutFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutFactory.swift; sourceTree = "<group>"; };
+		B82EC3A8243D179200BB0657 /* ShortcutItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutItemManager.swift; sourceTree = "<group>"; };
 		B84FA22B243CB59D00490CA6 /* ShortcutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84FA22E243CB59D00490CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B84FA232243CB59D00490CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				B84FA245243CB91300490CA6 /* Coordinator.swift */,
 				B84FA243243CB8DD00490CA6 /* AppCoordinator.swift */,
 				B84FA247243CB97700490CA6 /* MainCoordinator.swift */,
+				B82EC3A6243D151D00BB0657 /* ShortcutFactory.swift */,
+				B82EC3A8243D179200BB0657 /* ShortcutItemManager.swift */,
 			);
 			path = ShortcutExample;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			files = (
 				B84FA246243CB91300490CA6 /* Coordinator.swift in Sources */,
 				B84FA244243CB8DD00490CA6 /* AppCoordinator.swift in Sources */,
+				B82EC3A7243D151D00BB0657 /* ShortcutFactory.swift in Sources */,
 				B84FA233243CB59D00490CA6 /* ViewController.swift in Sources */,
+				B82EC3A9243D179200BB0657 /* ShortcutItemManager.swift in Sources */,
 				B84FA248243CB97700490CA6 /* MainCoordinator.swift in Sources */,
 				B84FA22F243CB59D00490CA6 /* AppDelegate.swift in Sources */,
 			);
