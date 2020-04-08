@@ -6,11 +6,15 @@
 //  Copyright © 2020 Salgado Solutions. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 final class ShortcutItemManager {
     
     func register() {
         RegisteredItems.secondViewController.registerNewItem()
+    }
+    
+    func flush() {
+        UIApplication.shared.shortcutItems = []
     }
 }
