@@ -28,13 +28,29 @@ class MainCoordinator: Coordinator {
     func start() {
         presenter.pushViewController(startViewController, animated: true)
     }
+    
+    func startFromShortcut() {
+        start()
+        navigate()
+    }
 }
 
 extension MainCoordinator: FirstViewControllerDelegate {
     
+    func navigateToHighlight() {
+        let viewController = HighlightViewController()
+        viewController.delegate = self
+        
+        presenter.pushViewController(viewController, animated: true)
+    }
+    
+    func navigateToRoot() {
+        presenter.popToRootViewController(animated: true)
+    }
+    
     func navigate() {
-        let secondViewController = UIViewController()
-        secondViewController.view.backgroundColor = .red
+        let secondViewController = SecondViewController()
+        secondViewController.delegate = self
         ShortcutItemManager().register()
         
         presenter.pushViewController(secondViewController, animated: true)

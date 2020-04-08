@@ -15,4 +15,12 @@ public protocol Coordinator {
     var startViewController: UIViewController { get }
     
     func start()
+    func startFromShortcut()
+}
+
+extension Coordinator {
+    
+    func startFromShortcut() {
+        start()
+    }
 }

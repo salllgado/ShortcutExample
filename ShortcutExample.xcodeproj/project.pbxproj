@@ -18,6 +18,8 @@
 		B84FA244243CB8DD00490CA6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84FA243243CB8DD00490CA6 /* AppCoordinator.swift */; };
 		B84FA246243CB91300490CA6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84FA245243CB91300490CA6 /* Coordinator.swift */; };
 		B84FA248243CB97700490CA6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84FA247243CB97700490CA6 /* MainCoordinator.swift */; };
+		B8719096243E5599001E4E53 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8719095243E5599001E4E53 /* SecondViewController.swift */; };
+		B8719098243E5639001E4E53 /* HighlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8719097243E5639001E4E53 /* HighlightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B84FA243243CB8DD00490CA6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		B84FA245243CB91300490CA6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B84FA247243CB97700490CA6 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		B8719095243E5599001E4E53 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B8719097243E5639001E4E53 /* HighlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +70,46 @@
 		B84FA22D243CB59D00490CA6 /* ShortcutExample */ = {
 			isa = PBXGroup;
 			children = (
+				B8719094243E5577001E4E53 /* Coordinators */,
+				B8719093243E556B001E4E53 /* ViewControllers */,
+				B8719092243E53AB001E4E53 /* Shortcut */,
 				B84FA22E243CB59D00490CA6 /* AppDelegate.swift */,
-				B84FA232243CB59D00490CA6 /* ViewController.swift */,
 				B84FA234243CB59D00490CA6 /* Main.storyboard */,
 				B84FA237243CB5A200490CA6 /* Assets.xcassets */,
 				B84FA239243CB5A200490CA6 /* LaunchScreen.storyboard */,
 				B84FA23C243CB5A200490CA6 /* Info.plist */,
+			);
+			path = ShortcutExample;
+			sourceTree = "<group>";
+		};
+		B8719092243E53AB001E4E53 /* Shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				B82EC3A8243D179200BB0657 /* ShortcutItemManager.swift */,
+				B82EC3AC243D1A2300BB0657 /* RegisteredItems.swift */,
+				B82EC3A6243D151D00BB0657 /* ShortcutFactory.swift */,
+			);
+			path = Shortcut;
+			sourceTree = "<group>";
+		};
+		B8719093243E556B001E4E53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B84FA232243CB59D00490CA6 /* ViewController.swift */,
+				B8719095243E5599001E4E53 /* SecondViewController.swift */,
+				B8719097243E5639001E4E53 /* HighlightViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B8719094243E5577001E4E53 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
 				B84FA245243CB91300490CA6 /* Coordinator.swift */,
 				B84FA243243CB8DD00490CA6 /* AppCoordinator.swift */,
 				B84FA247243CB97700490CA6 /* MainCoordinator.swift */,
-				B82EC3A6243D151D00BB0657 /* ShortcutFactory.swift */,
-				B82EC3A8243D179200BB0657 /* ShortcutItemManager.swift */,
-				B82EC3AC243D1A2300BB0657 /* RegisteredItems.swift */,
 			);
-			path = ShortcutExample;
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +186,11 @@
 				B82EC3AD243D1A2300BB0657 /* RegisteredItems.swift in Sources */,
 				B84FA246243CB91300490CA6 /* Coordinator.swift in Sources */,
 				B84FA244243CB8DD00490CA6 /* AppCoordinator.swift in Sources */,
+				B8719096243E5599001E4E53 /* SecondViewController.swift in Sources */,
 				B82EC3A7243D151D00BB0657 /* ShortcutFactory.swift in Sources */,
 				B84FA233243CB59D00490CA6 /* ViewController.swift in Sources */,
 				B82EC3A9243D179200BB0657 /* ShortcutItemManager.swift in Sources */,
+				B8719098243E5639001E4E53 /* HighlightViewController.swift in Sources */,
 				B84FA248243CB97700490CA6 /* MainCoordinator.swift in Sources */,
 				B84FA22F243CB59D00490CA6 /* AppDelegate.swift in Sources */,
 			);

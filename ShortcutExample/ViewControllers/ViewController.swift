@@ -10,6 +10,8 @@ import UIKit
 
 protocol FirstViewControllerDelegate: class {
     func navigate()
+    func navigateToHighlight()
+    func navigateToRoot()
 }
 
 class ViewController: UIViewController {

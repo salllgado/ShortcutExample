@@ -40,6 +40,6 @@ extension AppCoordinator {
     
     func start(with shortcutItem: UIApplicationShortcutItem) {
         let coordinator = ShortcutFactory(presenter: presenter).getCoordinator(from: shortcutItem)
-        coordinator.start()
+        coordinator.startFromShortcut()
     }
 }
